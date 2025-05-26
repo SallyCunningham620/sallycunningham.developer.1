@@ -1,3 +1,7 @@
+:root {
+    --background-color-1: rgb(1, 135, 197)
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -48,12 +52,32 @@ li {
 ul li a {
     text-decoration: none;
     padding-right: 1em;
-}
-.profile-pic {
-    height: 20rem;
+    color: var(--background-color-1);
 }
 
 .intro {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+}
+
+.left {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.name {
+    padding-top: 15px;
+    color: blue;
+}
+.profile-pic {
+    height: 20rem;
+}
+
+.right ::first-letter {
+    color:blue
+}
+
+.right {
+    padding-top: 3rem;
 }
