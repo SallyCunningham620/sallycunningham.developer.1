@@ -16,12 +16,11 @@
                 <ul class="nav-links">
                     <li class="nav-link-title"><a href="#about">About Me</a></li>
                     <li class="nav-link-title"><a href="#projects">Projects</a></li>
-                    <li class="nav-link-title"><a href="#resume">Resume</a></li>
                     <li class="nav-link-title"><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="main" alt="Photo Credits to Glauber Sampaio on Upsplash.">
+        <div class="main" id="hero" alt="Photo Credits to Glauber Sampaio on Upsplash.">
             <div class="intro">
                 <div class="intro-top">
                     <h2>Hello</h2>
@@ -31,9 +30,17 @@
                 <div class="intro-bottom">
                     <h4>Endless Opporunities Await</h4>
                 </div>
+                <div class="main-contact-links">
+                    <ul>
+                        <li><a class="icons" href="https://github.com/SallyCunningham620" target="_blank"><img src="assets/github.svg">Git</a></li>
+                        <li><a class="icons" href="" target="_blank"><img src="assets/linkedin.svg">LinkedIn</a></li>
+                        <li><a class="icons" href="" target="_blank"><img src="assets/article_person_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg">Resume</a></li>
+                    </ul>
+                </div>
+                <div class="hero-arrow-down"><a href="#about"><img class="arrow-white" src="assets/arrow_downward_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
             </div>
         </div>
-        <div class="about">
+        <div class="about" id="about">
             <h2>About Me</h2>
             <p> Here is a little information about me, what I do, and my current skills.</p>
             <div class="about-lr">
@@ -80,8 +87,9 @@
                     </div>
                 </div>
             </div>
+            <div class="about-arrow-down"><a href="#projects"><img class="arrow-white" src="assets/arrow_downward_alt_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h2>Projects</h2>
             <p>Here are some projects that I have worked on.</p>
             <div class="project-container">
@@ -89,7 +97,7 @@
                     <div class="card">
                         <h4>Library App</h4>
                         <p>A personalized library page using a form and JS to add new books that you have 
-                            or have not read with information about them. <br><strong>Project on The Odin Project.</strong></p>
+                            or have not read with information about them.</p>
                         <img src="assets/Library.app.screen.png" alt="Library App">
                         <link><a href="https://sallycunningham620.github.io/library.app/">View</a>
                     </div>
@@ -119,19 +127,31 @@
                     </div>
                 </div>
             </div>
+            <div class="projects-arrow-down"><a href="#contact"><img class="arrow-white" src="assets/arrow_downward_alt_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg"></a></div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h3>Contact Me</h3>
-            <p>Cell Phone: (1)319-238-1310</p>
-            <p>Email: SallyCunningham620@yahoo.com</p>
-            <p>Located in Muscatine, Iowa</p>
+            <div class="contact-form">
+                <div><img src="assets/article_person_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg"><strong>Email:</strong>SallyCunningham620@yahoo.com</div>
+                <p>Located in Muscatine, Iowa</p>
+            </div>
             <div class="links">
                 <ul>
-                    <li><link><a href="https://github.com/SallyCunningham620"></a>Git</li>
-                    <li><a href=""></a>Resume</li>
+                    <li><a class="icons" href="https://github.com/SallyCunningham620" target="_blank"><img src="assets/github.svg">Git</a></li>
+                    <li><a class="icons" href="" target="_blank"><img src="assets/linkedin.svg">LinkedIn</a></li>
+                    <li><a class="icons" href="" target="_blank"><img src="assets/article_person_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg">Resume</a></li>
                 </ul>
             </div>
+            <div>
+                <a href="#hero" class="contact-arrow-up"><img class="arrow-white" src="assets/arrow_upward_24dp_0247FF_FILL0_wght400_GRAD0_opsz24.svg"></a>
+            </div>
         </div>
+        <footer>
+            <div class="footer-a">
+                <img src="assets/copyright_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
+                <p>Copyright 2025. Made by <strong>Sally Cunningham</strong></p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
