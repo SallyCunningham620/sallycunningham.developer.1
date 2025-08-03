@@ -1,3 +1,5 @@
+/* STYLE */
+
 @font-face {
     font-family: 'EmilysCandy';
     src: url(EmilysCandy-Regular.ttf);
@@ -5,12 +7,11 @@
 
 :root {
     --color-1: #00308F;
-    --color-2: #0247FF;
+    --color-2: #0247FF;/*used for the icons*/
     --color-3: #F2F3F5;
     --color-4: #73c2da;
     --color-5: #0c0c0c;
     --color-6: rgba(225, 230, 250, 0.842);
-    --color-7: rgba(255, 255, 255, 0.75)
 
 }
 
@@ -27,11 +28,83 @@ html {
     scroll-behavior: smooth;
 }
 
+li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-right: 1em;
+    color: var(--color-1);
+}
+
+h1 {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: clamp(1.5rem, calc(3em + 2vh), 5rem);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1.2;
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: clamp(0.5rem, 1.5rem, 2rem);
+}
+
+p {
+    text-align: center;
+    font-size:  1rem;
+    padding: 0.5rem;
+    line-height: 1.5em;
+}
+
+.text {
+    width: 30em;
+}
+
+.main-arrow-down {
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow-white {
+    width: 4vw;
+    height: auto;
+    filter: drop-shadow(3px 2px 1px rgba(0, 0, 0, 0.4))
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img {
+    padding-right: 0.5em;
+}
+
+/* NAV */
+
 .desktop-nav {
     background-color: var(--color-3);
     width: 100%;
-    height: 3rem;
-    padding: 20px;
+    height: 8vh;
+    padding: 1rem;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -41,7 +114,7 @@ html {
 }
 
 .logo img {
-    height: 30px;
+    height: 4vh;
     width: auto;
 }
 
@@ -54,15 +127,7 @@ html {
     justify-content: flex-end;
 }
 
-li {
-    list-style-type: none;
-}
-
-ul li a {
-    text-decoration: none;
-    padding-right: 1em;
-    color: var(--color-1);
-}
+/* MAIN SECTION */
 
 .main {
     background: url(./assets/glauber-sampaio-FkNzeOnsA0g-unsplash.jpg);
@@ -83,35 +148,10 @@ ul li a {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
-    width: 92%;
+    width: 92vw;
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    padding: 1.5rem;
-    font-size: clamp(1.5rem, calc(3em + 2vh), 5rem);
-    line-height: 1.2;
-}
-
-h2, h3 {
-    text-align: center;
-    padding: 0.5rem;
-    font-size: clamp(0.5rem, 1.5rem, 2rem);
-    line-height: 1.2;
-}
-
-h2 {
-    font-size: 3rem;
-    margin-top: 1.5rem;
-}
-
-p {
-    text-align: center;
-    font-size:  1rem;
-    padding: 0.5rem;
-    line-height: 1.5em;
-}
 .name {
     color: var(--color-1);
     text-shadow: 1px 1px 5px white;
@@ -122,38 +162,7 @@ p {
     text-shadow: 1px 1px 2px rgba(212, 209, 209, 0.884);
 }
 
-.hero-arrow-down {
-    position: absolute;
-    top: 480px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.about-arrow-down {
-    position: absolute;
-    top: 550px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.contact-arrow-up {
-    position: absolute;
-    top: 150px;
-    left: 10%;
-    transform: translate(-50%, -50%);
-}
-
-.projects-arrow-down {
-    position: absolute;
-    top: 990px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.arrow-white {
-    width: 50px;
-    height: auto;
-    filter: drop-shadow(3px 2px 1px rgba(0, 0, 0, 0.4))
-}
+/*ABOUT SECTION*/
 
 .about {
     position: relative;
@@ -173,10 +182,6 @@ p {
     padding-top: 1.5em;
 }
 
-.text {
-    width: 30em;
-}
-
 .skill-list{
     display: flex;
     justify-content: center;
@@ -191,8 +196,17 @@ p {
     padding: 0.6em 1.5em;
     margin: 0.5em;
     background-color: var(--color-4);
-    text-shadow: 1px 2px 1px white;
+    text-shadow: 1px 1.5px 1px white;
 }
+
+.about-arrow-down {
+    position: absolute;
+    top: 85vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*PROJECT SECTION*/
 
 .projects {
     position: relative;
@@ -206,7 +220,6 @@ p {
     background-color: var(--color-4);
     border:  solid var(--color-1) 5px;
     display: grid;
-    grid-template-rows: repeat(2 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     justify-items: center;
@@ -221,8 +234,8 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 400px;
-    width: 550px;
+    height: 55vh;
+    width: 40vw;
     padding: 1em;
     background-color: var(--color-3);
     border:  solid var(--color-5) 5px;
@@ -231,12 +244,21 @@ p {
 }
 
 .card img {
-    height: 200px;
+    height: 30vh;
     width: auto;
     border-radius: 10px;
     border: 2px solid black;
     margin: 1em;
 }
+
+.projects-arrow-down {
+    position: absolute;
+    top: 135vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*CONTACT SECTION*/
 
 .contact {
     position: relative;
@@ -259,20 +281,14 @@ p {
     align-items: center;
 }
 
-.links ul {
-    display: flex;
-    justify-content: center;
+.contact-arrow-up {
+    position: absolute;
+    top: 20vh;
+    left: 10%;
+    transform: translate(-50%, -50%);
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icons img {
-    padding-right: 0.5em;
-}
+/*FOOTER SECTION*/
 
 .footer-a {
     background-color: var(--color-6);
