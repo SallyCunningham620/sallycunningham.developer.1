@@ -14,14 +14,21 @@
 }
 
 @media screen and (max-width: 1060px) {
+    .main-contact-links ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .main-arrow-down {
+        top: 500px;
+    }
     .about {
-        height: 900px;
+        height: 925px;
     }
     .about-left, .about-right {
         width: 500px;
     }
     .about-arrow-down {
-        top: 875px;
+        top: 900px;
     }
     .card {
         width: 600px;
@@ -30,19 +37,11 @@
         height: 200px;
     }
     .projects-arrow-down {
-        top: 1925px;
+        top: 1975px;
     }
 }
 
 @media screen and (max-width: 680px) {
-    .main-contact-links ul {
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .main-arrow-down {
-        top: 500px;
-    }
     .card {
         width: 400px;
     }
@@ -52,12 +51,6 @@
 }
 
 @media screen and (max-width: 535px){
-    .main-contact-links {
-        left: 30%
-    }
-    .main-contact-links ul {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-height: 820px) {
