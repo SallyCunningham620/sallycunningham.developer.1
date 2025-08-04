@@ -67,11 +67,11 @@ p {
 }
 
 .text {
-    width: 30em;
+    width: auto;
 }
 
 .arrow-white {
-    width: 4vw;
+    width: 30px;
     height: auto;
     filter: drop-shadow(3px 2px 1px rgba(0, 0, 0, 0.4))
 }
@@ -132,7 +132,7 @@ p {
 
 .main-contact-links {
     position: absolute;
-    top: 43vh;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -198,7 +198,7 @@ p {
 .skill-list{
     display: flex;
     justify-content: center;
-    width: 30em;
+    width: auto;
     flex-wrap: wrap;
 }
 
@@ -237,7 +237,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2em;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     min-height: 700px;
     min-width: 300px;
 }
@@ -286,7 +286,7 @@ p {
 .contact-form {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 2em;
 }
 
 .contact-form div {
