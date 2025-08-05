@@ -130,13 +130,22 @@
     .about-arrow-down {
         top: 1340px;
     }
-}
-/*
-@media screen and (max-height: 820px) {
-    .intro {
-        top: 25vh;
+    .card {
+        width: 275px;
     }
-    .intro-top > * {
-        font-size: 2.5em;
+    .card img {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    .card {
+        width: 260px;
+    }
+    .card img {
+        height: 115px;
+    }
+    .projects-arrow-down {
+        top: 1945px;
     }
 }
