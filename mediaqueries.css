@@ -118,6 +118,9 @@
 }
 
 @media screen and (max-width: 356px) {
+    .about-arrow-down {
+        top: 1370px;
+    }
     .card {
         width: 260px;
     }
