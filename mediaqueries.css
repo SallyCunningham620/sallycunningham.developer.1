@@ -1,4 +1,7 @@
 @media screen and (max-width: 1350px) {
+    .intro {
+        top: 175px;
+    }
     .card {
         width: 550px;
     }
@@ -8,6 +11,9 @@
 }
 
 @media screen and (max-width: 1220px) {
+    .intro {
+        top: 180px;
+    }
     .card {
         width: 450px;
     }
@@ -17,10 +23,15 @@
     .main-contact-links ul {
         flex-direction: column;
         justify-content: space-evenly;
-        top: 55vh;
     }
     .main-arrow-down {
         top: 500px;
+    }
+    .intro {
+        top: 175px;
+    }
+    .intro-top > * {
+        font-size: 2.5em;
     }
     .about {
         height: 925px;
@@ -44,10 +55,10 @@
 
 @media screen and (max-width: 680px) {
     .intro {
-        top: 25vh;
+        top: 160px;
     }
     .intro-top > * {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .card {
         width: 400px;
@@ -71,19 +82,14 @@
         height: 125px;
     }
     .contact-arrow-up {
-        top: 120px;
+        top: 105px;
         left: 50%;
     }
 }
 
-@media screen and (max-width: 481px) {
-    .contact-arrow-up {
-        top: 140px;
-    }
-}
-@media screen and (max-width: 437px) {
+@media screen and (max-width: 441px) {
     .about {
-          height: 1075x;
+          height: 1075px;
     }
     .about-arrow-down {
         top: 1060px;
@@ -92,16 +98,16 @@
 
 @media screen and (max-width: 435px) {
     .about {
-          height: 1100x;
+        height: 1150px;
     }
     .about-arrow-down {
-        top: 1095px;
+        top: 1130px;
     }
 }
 
 @media screen and (max-width: 429px) {
     .about {
-          height: 1200x;
+          height: 1210px;
     }
     .about-arrow-down {
         top: 1190px;
@@ -109,23 +115,17 @@
 }
 
 @media screen and (max-width: 415px) {
-    .main-contact-links {
-        top: 50vh;
-    }
-    .main-arrow-down {
-        top: 550px;
-    }
     .about {
-          height: 1250x;
+          height: 1280px;
     }
     .about-arrow-down {
-        top: 1240px;
+        top: 1270px;
     }
 }
 
 @media screen and (max-width: 374px) {
     .about {
-          height: 1350x;
+          height: 1350px;
     }
     .about-arrow-down {
         top: 1340px;
