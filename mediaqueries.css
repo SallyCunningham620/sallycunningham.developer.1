@@ -36,9 +36,6 @@
     .about-left, .about-right {
         width: 500px;
     }
-    .about-arrow-down {
-        top: 920px;
-    }
     .card {
         width: 600px;
     }
@@ -66,9 +63,6 @@
 }
 
 @media screen and (max-width: 530px){
-    .about-arrow-down {
-        top: 975px;
-    }
     .card {
         width: 300px;
     }
@@ -82,33 +76,22 @@
 }
 
 @media screen and (max-width: 441px) {
-    .about-arrow-down {
-        top: 1060px;
-    }
 }
 
 @media screen and (max-width: 435px) {
-    .about-arrow-down {
-        top: 1130px;
-    }
+
 }
 
 @media screen and (max-width: 429px) {
-    .about-arrow-down {
-        top: 1190px;
-    }
+
 }
 
 @media screen and (max-width: 415px) {
-    .about-arrow-down {
-        top: 1270px;
-    }
+
 }
 
 @media screen and (max-width: 374px) {
-    .about-arrow-down {
-        top: 1340px;
-    }
+ 
     .card {
         width: 275px;
     }
@@ -118,9 +101,6 @@
 }
 
 @media screen and (max-width: 356px) {
-    .about-arrow-down {
-        top: 1370px;
-    }
     .card {
         width: 260px;
     }
