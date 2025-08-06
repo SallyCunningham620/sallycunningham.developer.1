@@ -205,6 +205,7 @@ p {
     margin: 0.5em;
     background-color: var(--color-4);
     text-shadow: 1px 1.5px 1px white;
+    box-shadow: 2px 2px 5px 1px var(--color-2);
 }
 
 .about-arrow-down {
@@ -249,7 +250,7 @@ p {
     background-color: var(--color-3);
     border:  solid var(--color-5) 5px;
     border-radius: 10px;
-    box-shadow: 2px 2px 7px 1px var(--color-4);
+    box-shadow: 2px 2px 7px 1px var(--color-2);
 }
 
 .card img {
@@ -258,6 +259,17 @@ p {
     border-radius: 10px;
     border: 2px solid black;
     margin: 1em;
+}
+
+.check-out-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.check-out-project a {
+    padding: 10px;
+    text-decoration: none;
 }
 
 .projects-arrow-down {
