@@ -42,9 +42,6 @@
     .card img {
         height: 200px;
     }
-    .projects-arrow-down {
-        top: 1960px;
-    }
 }
 
 @media screen and (max-width: 680px) {
@@ -56,9 +53,11 @@
     }
     .card {
         width: 400px;
+        height: 425px;
     }
     .card img {
         height: 175px;
+        width: 350px;
     }
 }
 
@@ -68,6 +67,7 @@
     }
     .card img {
         height: 125px;
+        width: 275px;
     }
     .contact-arrow-up {
         top: 105px;
@@ -82,6 +82,7 @@
     }
     .card img {
         height: 120px;
+        width: 250px;
     }
 }
 
@@ -91,8 +92,6 @@
     }
     .card img {
         height: 115px;
-    }
-    .projects-arrow-down {
-        top: 1945px;
+        width: 225px;
     }
 }
