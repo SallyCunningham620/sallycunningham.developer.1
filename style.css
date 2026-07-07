@@ -244,8 +244,8 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 430px;
-    width: 600px;
+    height: auto;
+    max-width: 600px;
     padding: 1em;
     background-color: var(--color-3);
     border:  solid var(--color-5) 5px;
@@ -279,7 +279,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-/*CONTACT SECTION*/
+/* CONTACT SECTION*/
 
 .contact {
     position: relative;
